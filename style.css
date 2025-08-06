@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "urbanist";
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    background-color: black;
+    background-image: url(./StockCake-Elegant\ Tiffany\ Lamp_1754480812.jpg); 
+    background-size: fill;
+    background-repeat: no-repeat;
+    background-position: 70% 25%;
+}
+
+.container {
+    gap: 2em;
+    display: flex;
+    flex-direction: column;
+    width: max(20%, 250px);
+    background-color: white;
+    padding: 2em;
+    background-image: url(./brown-wooden-textured-flooring-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: floralwhite;
+}
+
+.banner {
+    max-height: 100px;
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.socials {
+    display: flex;
+}
+
+.socials img {
+    height: 50px;
+    margin: 1em;
+}
+
+.happenings li {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.heading 
