@@ -1,0 +1,56 @@
+* {
+    font-family: "urbanist";
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+    display: flex;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: floralwhite;
+    height: 100%;
+    margin: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+#banner {
+    height:100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.container table {
+    width: 100%;
+    text-align: center;
+}
+
+.socials a img {
+    height: 50px;
+    width: 50px;
+    }
+
+.picture {
+    display: flex;
+    width: 60%;
+    background-image: url("StockCake-Elegant\ Tiffany\ Lamp_1754480812.jpg");
+    background-position: 0% 35%;
+    object-fit: fill;
+    overflow: hidden;
+}
+
+
+
+
+
